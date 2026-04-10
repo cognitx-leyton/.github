@@ -4,7 +4,8 @@
 
 [![Website](https://img.shields.io/badge/cognitx.leyton.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cognitx.leyton.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/leytoncognitx)
-[![Contact](https://img.shields.io/badge/Contact%20Us-6C63FF?style=for-the-badge&logo=mail.ru&logoColor=white)](https://cognitx.leyton.com/#contact)
+[![X/Twitter](https://img.shields.io/badge/@LeytonCognitx-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/LeytonCognitx)
+[![Email](https://img.shields.io/badge/cognitx@leyton.com-6C63FF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cognitx@leyton.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=cognitx-leyton&color=6C63FF&style=flat-square&label=Profile+Views)
 
