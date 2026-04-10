@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=Leyton%20CognitX&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%26%20Technology%20Advisory&descSize=18&descAlignY=55&descColor=a8b2d1)
+![Leyton CognitX - AI & Technology Advisory](assets/header.svg)
 
 [![Website](https://img.shields.io/badge/cognitx.leyton.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cognitx.leyton.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/leytoncognitx)
@@ -135,4 +135,4 @@ We welcome contributions! Check out our repos and open a PR.
 
 </div>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=100&section=footer)
+![Footer](assets/footer.svg)
