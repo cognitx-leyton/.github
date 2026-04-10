@@ -1,6 +1,6 @@
 <div align="center">
 
-![Leyton CognitX - AI & Technology Advisory](assets/header.svg)
+![Leyton CognitX - AI & Technology Advisory](assets/header.png)
 
 [![Website](https://img.shields.io/badge/cognitx.leyton.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cognitx.leyton.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/leytoncognitx)
