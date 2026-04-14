@@ -1,0 +1,86 @@
+name: Bug report
+description: Report something that isn't working as expected
+title: "[bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report. A clear reproduction is the most valuable thing you can provide — it's usually what turns "we'll look into it" into "fix landing today".
+
+        Before submitting, please search existing issues to avoid duplicates.
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Which version, tag, or commit SHA are you running?
+      placeholder: "v1.4.2 or commit abc1234"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+      placeholder: "When I run `foo bar`, I get a stack trace instead of the expected output."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Minimal, self-contained steps. Code snippets, commands, or a small repo link are ideal.
+      placeholder: |
+        1. Clone the repo
+        2. Run `npm install`
+        3. Run `npm test -- --grep "foo"`
+        4. See error
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or output
+      description: Paste any relevant error output. This will be automatically formatted, no backticks needed.
+      render: shell
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, language/runtime version, and any relevant package versions.
+      placeholder: |
+        - OS: Ubuntu 24.04
+        - Node: 20.11.0
+        - Package: @cognitx/foo 1.4.2
+      value: |
+        - OS:
+        - Runtime/language version:
+        - Package version:
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have searched existing issues and this is not a duplicate
+          required: true
+        - label: I have read the [Contributing Guide](https://github.com/cognitx-leyton/.github/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: I agree to follow the [Code of Conduct](https://github.com/cognitx-leyton/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true

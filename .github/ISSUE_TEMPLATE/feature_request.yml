@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest a new feature, enhancement, or idea
+title: "[feat]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement! The best feature requests start with a concrete problem. Tell us what you're trying to accomplish — we'll often be able to propose a solution you hadn't considered.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: A clear description of the user need or pain point. What does the current behaviour force you to work around?
+      placeholder: "I'm trying to X, but the library only supports Y, which means I have to Z."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work? API sketches, pseudo-code, or screenshots are welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches did you think about, and why did you rule them out?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links to related issues, discussions, prior art in other projects, or anything else that would help us understand the request.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have searched existing issues and this is not a duplicate
+          required: true
+        - label: I have read the [Contributing Guide](https://github.com/cognitx-leyton/.github/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: I agree to follow the [Code of Conduct](https://github.com/cognitx-leyton/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true
